@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input_bp"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_bp"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/input_bu"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_bu"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/input_sc"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_sc"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:minHeight="48dp"
+        android:text="@string/predict_button" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here" />
+</LinearLayout>

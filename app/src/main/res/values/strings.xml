@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CKD Prediction by Anzules</string>
+    <string name="hint_bp">Enter Blood Pressure</string>
+    <string name="hint_bu">Enter Blood Urea</string>
+    <string name="hint_sc">Enter Serum Creatinine</string>
+    <string name="predict_button">Predict</string>
+</resources>
